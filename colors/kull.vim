@@ -33,7 +33,7 @@ hi Folded          ctermfg=grey  ctermbg=none cterm=NONE
 hi Function        ctermfg=grey  ctermbg=none cterm=BOLD
 hi Identifier      ctermfg=grey  ctermbg=none cterm=NONE
 hi Ignore          ctermfg=grey  ctermbg=none cterm=NONE
-hi Label           ctermfg=grey  ctermbg=none cterm=BOLD
+hi Label           ctermfg=grey  ctermbg=none cterm=NONE
 hi LineNr          ctermfg=240   ctermbg=none cterm=NONE
 hi MatchParen      ctermfg=229   ctermbg=241  cterm=NONE
 hi ModeMsg         ctermfg=grey  ctermbg=none cterm=NONE
