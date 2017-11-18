@@ -1,97 +1,70 @@
-"    .o oOOOOOOOo                                            0OOOo
-"    Ob.OOOOOOOo  OOOo.      oOOo.                      .adOOOOOOO
-"    OboO000000000000.OOo. .oOOOOOo.    OOOo.oOOOOOo..0000000000OO
-"    OOP.oOOOOOOOOOOO 0POOOOOOOOOOOo.   `0OOOOOOOOOP,OOOOOOOOOOOB'
-"    `O'OOOO'     `OOOOo"OOOOOOOOOOO` .adOOOOOOOOO"oOOO'    `OOOOo
-"    .OOOO'            `OOOOOOOOOOOOOOOOOOOOOOOOOO'            `OO
-"    OOOOO                 '"OOOOOOOOOOOOOOOO"`                oOO
-"   oOOOOOba.                .adOOOOOOOOOOba               .adOOOOo.
-"  oOOOOOOOOOOOOOba.    .adOOOOOOOOOO@^OOOOOOOba.     .adOOOOOOOOOOOO
-" OOOOOOOOOOOOOOOOO.OOOOOOOOOOOOOO"`  '"OOOOOOOOOOOOO.OOOOOOOOOOOOOO
-" 0OOOO0       OOOoOOOOOOOOOOOOOO`  .   '"OOOOOOOOOOOOoOO"     0OOO0
-"    Y           'OOOOOOOOOOOOOO: .oOOo. :OOOOOOOOOOO?'         :`
-"    :            .oO%OOOOOOOOOOo.OOOOOO.oOOOOOOOOOOOO?         .
-"    .            oOOP"%OOOOOOOOoOOOOOOO?oOOOOO?OOOO"OOo
-"                 '%o  OOOO"%OOOO%"%OOOOO"OOOOOO"OOO':
-"                      `$"  `OOOO' `O"Y ' `OOOO'  o             .
-"    .                  .     OP"          : o     .
-"                              :
-
-
 hi clear
 
 if exists('syntax_on')
     syntax reset
 endif
 
-
 let g:colors_name='skull'
 set background=dark
 
+hi Cursor          ctermfg=white ctermbg=none cterm=NONE
+hi IncSearch       ctermfg=235   ctermbg=131  cterm=NONE
+hi Search          ctermfg=235   ctermbg=187  cterm=NONE
+hi Visual          ctermfg=110   ctermbg=235  cterm=reverse
+hi VisualNOS       ctermfg=white ctermbg=none cterm=reverse
 
-"" black fg w/white bg
-hi Cursor          guifg=#FFFFFF    guibg=#000000    ctermfg=white    ctermbg=black    gui=NONE         cterm=NONE
-hi IncSearch       guifg=#FFFFFF    guibg=#000000    ctermfg=white    ctermbg=black    gui=ITALIC       cterm=NONE
-hi Search          guifg=#FFFFFF    guibg=#000000    ctermfg=white    ctermbg=black    gui=ITALIC       cterm=NONE
-hi Visual          guifg=#FFFFFF    guibg=#000000    ctermfg=white    ctermbg=black    gui=ITALIC       cterm=NONE
-hi VisualNOS       guifg=#FFFFFF    guibg=#000000    ctermfg=white    ctermbg=black    gui=ITALIC       cterm=NONE
+hi Constant        ctermfg=108   ctermbg=none cterm=BOLD
+hi DiffAdd         ctermfg=108   ctermbg=none cterm=NONE
+hi Number          ctermfg=108   ctermbg=none cterm=BOLD
+hi Pmenu           ctermfg=108   ctermbg=none cterm=BOLD
+hi String          ctermfg=108   ctermbg=none cterm=BOLD
 
-"" white fg w/black bg
-hi Constant        guifg=#A0A0A0    guibg=#222222    ctermfg=white    ctermbg=black    gui=NONE         cterm=NONE
-hi DiffAdd         guifg=#A0A0A0    guibg=#222222    ctermfg=white    ctermbg=black    gui=NONE         cterm=NONE
-hi Number          guifg=#707070    guibg=#222222    ctermfg=white    ctermbg=black    gui=BOLD         cterm=BOLD
-hi Pmenu           guifg=#7eae81    guibg=#2f2f2f    ctermfg=white    ctermbg=black    gui=BOLD         cterm=BOLD
-hi String          guifg=#FFFFFF    guibg=#222222    ctermfg=white    ctermbg=black    gui=NONE         cterm=NONE
+hi CursorColumn    ctermfg=white ctermbg=none cterm=NONE
+hi CursorLine      ctermfg=white ctermbg=none cterm=NONE
+hi CursorLineNr    ctermfg=white ctermbg=none cterm=NONE
 
-"" grey fg w/white bg
-
-hi CursorColumn    guifg=#FFFFFF    guibg=#2f2f2f    ctermfg=white    ctermbg=black    gui=NONE         cterm=NONE
-hi CursorLine      guifg=#FFFFFF    guibg=#2f2f2f    ctermfg=white    ctermbg=black    gui=NONE         cterm=NONE
-hi CursorLineNr    guifg=#7eae81    guibg=#2f2f2f    ctermfg=white    ctermbg=black    gui=NONE         cterm=NONE
-
-"" grey fg w/black bg
-hi Comment         guifg=#7eae81    guibg=#222222    ctermfg=grey     ctermbg=black    gui=ITALIC       cterm=NONE
-hi DiffChange      guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi DiffDelete      guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi DiffText        guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi Directory       guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi Error           guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi Folded          guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi Function        guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=BOLD
-hi Identifier      guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi Ignore          guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi Label           guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=BOLD
-hi LineNr          guifg=#626262    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi MatchParen      guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi ModeMsg         guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi MoreMsg         guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi NonText         guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi Normal          guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi PmenuSbar       guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi PmenuSel        guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=ITALIC       cterm=NONE
-hi PmenuThumb      guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi PreProc         guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=BOLD
-hi Special         guifg=#A0A0A0    guibg=#222222    ctermfg=white    ctermbg=black    gui=BOLD         cterm=BOLD
-hi SpecialKey      guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=ITALIC       cterm=NONE
-hi Statement       guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=BOLD
-hi StatusLine      guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=BOLD
-hi StatusLineNC    guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=ITALIC       cterm=NONE
-hi StorageClass    guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=BOLD
-hi Structure       guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=BOLD
-hi TabLine         guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi TabLineFill     guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi TabLineSel      guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=BOLD
-hi Title           guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi Todo            guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=BOLD
-hi Todo            guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=UNDERLINE    cterm=UNDERLINE
-hi Type            guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=BOLD
-hi TypeDef         guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=BOLD
-hi Underlined      guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=UNDERLINE    cterm=UNDERLINE
-hi VertSplit       guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi WarningMsg      guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi WildMenu        guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi cucumberTags    guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=BOLD
-hi htmlTagN        guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=BOLD
-hi rubySymbol      guifg=#A0A0A0    guibg=#222222    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi Comment         ctermfg=243   ctermbg=none cterm=ITALIC
+hi DiffChange      ctermfg=grey  ctermbg=none cterm=NONE
+hi DiffDelete      ctermfg=grey  ctermbg=none cterm=NONE
+hi DiffText        ctermfg=grey  ctermbg=none cterm=NONE
+hi Directory       ctermfg=grey  ctermbg=none cterm=NONE
+hi Error           ctermfg=grey  ctermbg=none cterm=NONE
+hi Folded          ctermfg=grey  ctermbg=none cterm=NONE
+hi Function        ctermfg=grey  ctermbg=none cterm=BOLD
+hi Identifier      ctermfg=grey  ctermbg=none cterm=NONE
+hi Ignore          ctermfg=grey  ctermbg=none cterm=NONE
+hi Label           ctermfg=grey  ctermbg=none cterm=BOLD
+hi LineNr          ctermfg=240   ctermbg=none cterm=NONE
+hi MatchParen      ctermfg=229   ctermbg=241  cterm=NONE
+hi ModeMsg         ctermfg=grey  ctermbg=none cterm=NONE
+hi MoreMsg         ctermfg=grey  ctermbg=none cterm=NONE
+hi NonText         ctermfg=grey  ctermbg=none cterm=NONE
+hi Normal          ctermfg=grey  ctermbg=236  cterm=NONE
+hi PmenuSbar       ctermfg=grey  ctermbg=none cterm=NONE
+hi PmenuSel        ctermfg=grey  ctermbg=none cterm=NONE
+hi PmenuThumb      ctermfg=grey  ctermbg=none cterm=NONE
+hi PreProc         ctermfg=grey  ctermbg=none cterm=BOLD
+hi Special         ctermfg=251   ctermbg=none cterm=BOLD
+hi SpecialKey      ctermfg=238   ctermbg=none cterm=NONE
+hi Statement       ctermfg=grey  ctermbg=none cterm=BOLD
+hi StatusLine      ctermfg=grey  ctermbg=239  cterm=BOLD
+hi StatusLineNC    ctermfg=grey  ctermbg=none cterm=NONE
+hi StorageClass    ctermfg=grey  ctermbg=none cterm=BOLD
+hi Structure       ctermfg=grey  ctermbg=none cterm=BOLD
+hi TabLine         ctermfg=grey  ctermbg=none cterm=NONE
+hi TabLineFill     ctermfg=grey  ctermbg=none cterm=NONE
+hi TabLineSel      ctermfg=grey  ctermbg=none cterm=BOLD
+hi Title           ctermfg=grey  ctermbg=none cterm=NONE
+hi Todo            ctermfg=grey  ctermbg=none cterm=BOLD
+hi Todo            ctermfg=grey  ctermbg=none cterm=UNDERLINE
+hi Type            ctermfg=grey  ctermbg=none cterm=BOLD
+hi TypeDef         ctermfg=grey  ctermbg=none cterm=BOLD
+hi Underlined      ctermfg=grey  ctermbg=none cterm=UNDERLINE
+hi VertSplit       ctermfg=grey  ctermbg=none cterm=NONE
+hi WarningMsg      ctermfg=grey  ctermbg=none cterm=NONE
+hi WildMenu        ctermfg=grey  ctermbg=none cterm=NONE
+hi cucumberTags    ctermfg=grey  ctermbg=none cterm=BOLD
+hi htmlTagN        ctermfg=grey  ctermbg=none cterm=BOLD
+hi rubySymbol      ctermfg=grey  ctermbg=none cterm=NONE
 
 hi clear SignColumn
