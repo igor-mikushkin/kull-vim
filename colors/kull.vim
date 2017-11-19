@@ -38,7 +38,7 @@ hi LineNr          ctermfg=240   ctermbg=none cterm=NONE
 hi MatchParen      ctermfg=229   ctermbg=241  cterm=NONE
 hi ModeMsg         ctermfg=grey  ctermbg=none cterm=NONE
 hi MoreMsg         ctermfg=grey  ctermbg=none cterm=NONE
-hi NonText         ctermfg=grey  ctermbg=none cterm=NONE
+hi NonText         ctermfg=240   ctermbg=none cterm=NONE
 hi Normal          ctermfg=grey  ctermbg=236  cterm=NONE
 hi PmenuSbar       ctermfg=grey  ctermbg=none cterm=NONE
 hi PmenuSel        ctermfg=grey  ctermbg=none cterm=NONE
