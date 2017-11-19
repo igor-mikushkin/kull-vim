@@ -56,7 +56,7 @@ hi TabLineFill     ctermfg=grey  ctermbg=none cterm=none
 hi TabLineSel      ctermfg=grey  ctermbg=none cterm=bold
 hi Title           ctermfg=grey  ctermbg=none cterm=none
 hi Todo            ctermfg=254   ctermbg=100  cterm=bold
-hi Type            ctermfg=grey  ctermbg=none cterm=none
+hi Type            ctermfg=grey  ctermbg=none cterm=bold
 hi TypeDef         ctermfg=grey  ctermbg=none cterm=bold
 hi Underlined      ctermfg=grey  ctermbg=none cterm=underline
 hi VertSplit       ctermfg=grey  ctermbg=none cterm=none
