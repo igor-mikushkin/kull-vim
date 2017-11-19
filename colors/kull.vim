@@ -66,5 +66,6 @@ hi cucumberTags    ctermfg=grey  ctermbg=none cterm=bold
 hi htmlTagN        ctermfg=grey  ctermbg=none cterm=bold
 hi rubySymbol      ctermfg=grey  ctermbg=none cterm=none
 hi vimHiTerm       ctermfg=grey  ctermbg=none cterm=none
+hi vimGroupName    ctermfg=grey  ctermbg=none cterm=none
 
 hi clear SignColumn
