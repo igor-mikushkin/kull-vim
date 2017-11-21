@@ -67,5 +67,7 @@ hi htmlTagN        ctermfg=grey  ctermbg=none cterm=bold
 hi rubySymbol      ctermfg=grey  ctermbg=none cterm=none
 hi vimHiTerm       ctermfg=grey  ctermbg=none cterm=none
 hi vimGroupName    ctermfg=grey  ctermbg=none cterm=none
+hi goParameterName ctermfg=grey  ctermbg=none cterm=italic
+hi goFunctionCall  ctermfg=grey  ctermbg=none cterm=none
 
 hi clear SignColumn
