@@ -44,7 +44,7 @@ hi PmenuSbar        ctermfg=grey  ctermbg=none cterm=none
 hi PmenuSel         ctermfg=grey  ctermbg=none cterm=none
 hi PmenuThumb       ctermfg=grey  ctermbg=none cterm=none
 hi PreProc          ctermfg=grey  ctermbg=none cterm=bold
-hi Special          ctermfg=251   ctermbg=none cterm=bold
+hi Special          ctermfg=250   ctermbg=none cterm=bold,italic
 hi SpecialKey       ctermfg=238   ctermbg=none cterm=none
 hi Statement        ctermfg=grey  ctermbg=none cterm=bold
 hi StatusLine       ctermfg=grey  ctermbg=239  cterm=bold
@@ -56,7 +56,7 @@ hi TabLineFill      ctermfg=grey  ctermbg=none cterm=none
 hi TabLineSel       ctermfg=grey  ctermbg=none cterm=bold
 hi Title            ctermfg=grey  ctermbg=none cterm=none
 hi Todo             ctermfg=254   ctermbg=100  cterm=bold
-hi Type             ctermfg=grey  ctermbg=none cterm=bold
+hi Type             ctermfg=grey  ctermbg=none cterm=none
 hi TypeDef          ctermfg=grey  ctermbg=none cterm=bold
 hi Underlined       ctermfg=grey  ctermbg=none cterm=underline
 hi VertSplit        ctermfg=grey  ctermbg=none cterm=none
@@ -67,7 +67,8 @@ hi htmlTagN         ctermfg=grey  ctermbg=none cterm=bold
 hi rubySymbol       ctermfg=grey  ctermbg=none cterm=none
 hi vimHiTerm        ctermfg=grey  ctermbg=none cterm=none
 hi vimGroupName     ctermfg=grey  ctermbg=none cterm=none
-hi goParameterName  ctermfg=grey  ctermbg=none cterm=italic
+hi goParameterName  ctermfg=grey  ctermbg=none cterm=italic,bold
+hi goParameterType  ctermfg=grey  ctermbg=none cterm=none
 hi goFunctionCall   ctermfg=grey  ctermbg=none cterm=none
 hi CurrentWordTwins ctermfg=grey  ctermbg=22   cterm=none
 
