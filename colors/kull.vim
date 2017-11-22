@@ -67,7 +67,7 @@ hi htmlTagN         ctermfg=grey  ctermbg=none cterm=bold
 hi rubySymbol       ctermfg=grey  ctermbg=none cterm=none
 hi vimHiTerm        ctermfg=grey  ctermbg=none cterm=none
 hi vimGroupName     ctermfg=grey  ctermbg=none cterm=none
-hi goParameterName  ctermfg=grey  ctermbg=none cterm=italic,bold
+hi goParameterName  ctermfg=grey  ctermbg=none cterm=bold,italic
 hi goParameterType  ctermfg=grey  ctermbg=none cterm=none
 hi goFunctionCall   ctermfg=grey  ctermbg=none cterm=none
 hi CurrentWordTwins ctermfg=grey  ctermbg=22   cterm=none
