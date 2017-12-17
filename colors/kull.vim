@@ -39,7 +39,7 @@ hi MatchParen       ctermfg=229   ctermbg=241  cterm=none
 hi ModeMsg          ctermfg=grey  ctermbg=none cterm=none
 hi MoreMsg          ctermfg=grey  ctermbg=none cterm=none
 hi NonText          ctermfg=240   ctermbg=none cterm=none
-hi Normal           ctermfg=grey  ctermbg=236  cterm=none
+hi Normal           ctermfg=grey  ctermbg=none cterm=none
 hi PmenuSbar        ctermfg=grey  ctermbg=none cterm=none
 hi PmenuSel         ctermfg=grey  ctermbg=none cterm=none
 hi PmenuThumb       ctermfg=grey  ctermbg=none cterm=none
