@@ -48,7 +48,7 @@ hi Special          ctermfg=grey  ctermbg=none cterm=bold,italic
 hi SpecialKey       ctermfg=238   ctermbg=none cterm=none
 hi Statement        ctermfg=grey  ctermbg=none cterm=bold
 hi StatusLine       ctermfg=grey  ctermbg=239  cterm=bold
-hi StatusLineNC     ctermfg=grey  ctermbg=none cterm=none
+hi StatusLineNC     ctermfg=246   ctermbg=239  cterm=none
 hi StorageClass     ctermfg=grey  ctermbg=none cterm=bold
 hi Structure        ctermfg=grey  ctermbg=none cterm=bold
 hi TabLine          ctermfg=grey  ctermbg=none cterm=none
