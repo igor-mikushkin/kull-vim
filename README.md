@@ -9,11 +9,11 @@ Install manually or use a package manager:
 
 ```viml
 " vim-plug
-Plug 'igor-mikushkin/kull-vim'
+Plug 'igrmk/kull-vim'
 " NeoBundle
-NeoBundle 'igor-mikushkin/kull-vim'
+NeoBundle 'igrmk/kull-vim'
 " Vundle
-Plugin 'igor-mikushkin/kull-vim'
+Plugin 'igrmk/kull-vim'
 ```
 
 ```viml
