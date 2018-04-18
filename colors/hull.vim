@@ -7,17 +7,19 @@ endif
 let g:colors_name='kull'
 set background=dark
 
+hi Normal           ctermfg=254   ctermbg=none cterm=none
+
 hi Cursor           ctermfg=231   ctermbg=none cterm=none
 hi IncSearch        ctermfg=235   ctermbg=131  cterm=none
 hi Search           ctermfg=235   ctermbg=187  cterm=none
 hi Visual           ctermfg=110   ctermbg=235  cterm=reverse
 hi VisualNOS        ctermfg=231   ctermbg=none cterm=reverse
 
-hi Constant         ctermfg=108   ctermbg=none cterm=bold
-hi DiffAdd          ctermfg=108   ctermbg=none cterm=none
-hi Number           ctermfg=108   ctermbg=none cterm=bold
-hi Pmenu            ctermfg=108   ctermbg=none cterm=bold
-hi String           ctermfg=108   ctermbg=none cterm=bold
+hi Constant         ctermfg=114   ctermbg=none cterm=bold
+hi DiffAdd          ctermfg=114   ctermbg=none cterm=none
+hi Number           ctermfg=114   ctermbg=none cterm=bold
+hi Pmenu            ctermfg=114   ctermbg=none cterm=bold
+hi String           ctermfg=114   ctermbg=none cterm=bold
 
 hi CursorColumn     ctermfg=231   ctermbg=none cterm=none
 hi CursorLine       ctermfg=231   ctermbg=none cterm=none
@@ -39,14 +41,13 @@ hi MatchParen       ctermfg=229   ctermbg=241  cterm=none
 hi ModeMsg          ctermfg=250   ctermbg=none cterm=none
 hi MoreMsg          ctermfg=250   ctermbg=none cterm=none
 hi NonText          ctermfg=240   ctermbg=none cterm=none
-hi Normal           ctermfg=250   ctermbg=none cterm=none
 hi PmenuSbar        ctermfg=250   ctermbg=none cterm=none
 hi PmenuSel         ctermfg=250   ctermbg=none cterm=none
 hi PmenuThumb       ctermfg=250   ctermbg=none cterm=none
 hi PreProc          ctermfg=250   ctermbg=none cterm=bold
 hi Special          ctermfg=250   ctermbg=none cterm=bold,italic
 hi SpecialKey       ctermfg=238   ctermbg=none cterm=none
-hi Statement        ctermfg=250   ctermbg=none cterm=bold
+hi Statement        ctermfg=231   ctermbg=none cterm=bold
 hi StatusLine       ctermfg=250   ctermbg=239  cterm=bold
 hi StatusLineNC     ctermfg=246   ctermbg=239  cterm=none
 hi StorageClass     ctermfg=250   ctermbg=none cterm=bold

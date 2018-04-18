@@ -7,6 +7,8 @@ endif
 let g:colors_name='kull'
 set background=dark
 
+hi Normal           ctermfg=grey  ctermbg=none cterm=none
+
 hi Cursor           ctermfg=white ctermbg=none cterm=none
 hi IncSearch        ctermfg=235   ctermbg=131  cterm=none
 hi Search           ctermfg=235   ctermbg=187  cterm=none
@@ -39,7 +41,6 @@ hi MatchParen       ctermfg=229   ctermbg=241  cterm=none
 hi ModeMsg          ctermfg=grey  ctermbg=none cterm=none
 hi MoreMsg          ctermfg=grey  ctermbg=none cterm=none
 hi NonText          ctermfg=240   ctermbg=none cterm=none
-hi Normal           ctermfg=grey  ctermbg=none cterm=none
 hi PmenuSbar        ctermfg=grey  ctermbg=none cterm=none
 hi PmenuSel         ctermfg=grey  ctermbg=none cterm=none
 hi PmenuThumb       ctermfg=grey  ctermbg=none cterm=none
