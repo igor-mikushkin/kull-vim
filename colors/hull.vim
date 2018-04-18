@@ -7,11 +7,11 @@ endif
 let g:colors_name='kull'
 set background=dark
 
-hi Cursor           ctermfg=255   ctermbg=none cterm=none
+hi Cursor           ctermfg=231   ctermbg=none cterm=none
 hi IncSearch        ctermfg=235   ctermbg=131  cterm=none
 hi Search           ctermfg=235   ctermbg=187  cterm=none
 hi Visual           ctermfg=110   ctermbg=235  cterm=reverse
-hi VisualNOS        ctermfg=255   ctermbg=none cterm=reverse
+hi VisualNOS        ctermfg=231   ctermbg=none cterm=reverse
 
 hi Constant         ctermfg=108   ctermbg=none cterm=bold
 hi DiffAdd          ctermfg=108   ctermbg=none cterm=none
@@ -19,9 +19,9 @@ hi Number           ctermfg=108   ctermbg=none cterm=bold
 hi Pmenu            ctermfg=108   ctermbg=none cterm=bold
 hi String           ctermfg=108   ctermbg=none cterm=bold
 
-hi CursorColumn     ctermfg=255   ctermbg=none cterm=none
-hi CursorLine       ctermfg=255   ctermbg=none cterm=none
-hi CursorLineNr     ctermfg=255   ctermbg=none cterm=none
+hi CursorColumn     ctermfg=231   ctermbg=none cterm=none
+hi CursorLine       ctermfg=231   ctermbg=none cterm=none
+hi CursorLineNr     ctermfg=231   ctermbg=none cterm=none
 
 hi Comment          ctermfg=243   ctermbg=none cterm=italic
 hi DiffChange       ctermfg=250   ctermbg=none cterm=none
