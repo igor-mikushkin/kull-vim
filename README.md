@@ -2,6 +2,7 @@
 
 - Modified fork of skull-vim
 - Mostly monochrome-ish and green theme
+- Bright variant hull for working under direct sunlight
 
 ## Installation
 
