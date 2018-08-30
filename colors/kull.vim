@@ -68,9 +68,18 @@ hi htmlTagN         ctermfg=grey  ctermbg=none cterm=bold
 hi rubySymbol       ctermfg=grey  ctermbg=none cterm=none
 hi vimHiTerm        ctermfg=grey  ctermbg=none cterm=none
 hi vimGroupName     ctermfg=grey  ctermbg=none cterm=none
+hi CurrentWordTwins ctermfg=grey  ctermbg=22   cterm=none
+hi Delimiter        ctermfg=grey  ctermbg=none cterm=none
+hi Conceal          ctermfg=108   ctermbg=none cterm=bold
+
 hi goArgumentName   ctermfg=grey  ctermbg=none cterm=bold,italic
 hi goArgumentType   ctermfg=grey  ctermbg=none cterm=none
 hi goFunctionCall   ctermfg=grey  ctermbg=none cterm=none
-hi CurrentWordTwins ctermfg=grey  ctermbg=22   cterm=none
+
+hi texSpecialChar   ctermfg=243   ctermbg=none cterm=none
+hi texStatement     ctermfg=grey  ctermbg=none cterm=none
+hi texMath          ctermfg=108   ctermbg=none cterm=bold,italic
+hi texSuperscript   ctermfg=108   ctermbg=none cterm=bold,italic
+hi texSubscript     ctermfg=108   ctermbg=none cterm=bold,italic
 
 hi clear SignColumn
