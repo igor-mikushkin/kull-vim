@@ -18,7 +18,6 @@ hi VisualNOS        ctermfg=white ctermbg=none cterm=reverse
 hi Constant         ctermfg=108   ctermbg=none cterm=bold
 hi DiffAdd          ctermfg=108   ctermbg=none cterm=none
 hi Number           ctermfg=108   ctermbg=none cterm=bold
-hi Pmenu            ctermfg=108   ctermbg=none cterm=bold
 hi String           ctermfg=108   ctermbg=none cterm=bold
 
 hi CursorColumn     ctermfg=white ctermbg=none cterm=none
@@ -41,8 +40,9 @@ hi MatchParen       ctermfg=229   ctermbg=241  cterm=none
 hi ModeMsg          ctermfg=grey  ctermbg=none cterm=none
 hi MoreMsg          ctermfg=grey  ctermbg=none cterm=none
 hi NonText          ctermfg=240   ctermbg=none cterm=none
-hi PmenuSbar        ctermfg=grey  ctermbg=none cterm=none
-hi PmenuSel         ctermfg=grey  ctermbg=none cterm=none
+hi Pmenu            ctermfg=grey  ctermbg=235  cterm=none
+hi PmenuSbar        ctermfg=grey  ctermbg=131  cterm=none
+hi PmenuSel         ctermfg=235   ctermbg=108  cterm=bold
 hi PmenuThumb       ctermfg=grey  ctermbg=none cterm=none
 hi PreProc          ctermfg=grey  ctermbg=none cterm=bold
 hi Special          ctermfg=grey  ctermbg=none cterm=bold,italic
