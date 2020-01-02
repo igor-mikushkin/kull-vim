@@ -83,3 +83,13 @@ hi texSuperscript   ctermfg=108   ctermbg=none cterm=bold,italic
 hi texSubscript     ctermfg=108   ctermbg=none cterm=bold,italic
 
 hi clear SignColumn
+
+hi clear SpellBad
+hi clear SpellCap
+hi clear SpellRare
+hi clear SpellLocal
+
+hi SpellBad   ctermfg=218 cterm=underline
+hi SpellCap   cterm=underline
+hi SpellRare  cterm=underline
+hi SpellLocal cterm=underline
