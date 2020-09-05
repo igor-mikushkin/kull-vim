@@ -1,8 +1,16 @@
-# KULL  
+# KULL
 
 - Modified fork of skull-vim
 - Mostly monochrome-ish and green theme
 - Bright variant hull for working under direct sunlight
+
+## kull
+
+<img src="img/kull.png" alt="">
+
+## hull
+
+<img src="img/hull.png" alt="">
 
 ## Installation
 
@@ -15,8 +23,6 @@ Plug 'igrmk/kull-vim'
 NeoBundle 'igrmk/kull-vim'
 " Vundle
 Plugin 'igrmk/kull-vim'
-```
 
-```viml
 colorscheme kull
 ```
