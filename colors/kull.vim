@@ -10,7 +10,7 @@ set background=dark
 hi Normal           ctermfg=grey  ctermbg=none cterm=none
 
 hi Cursor           ctermfg=white ctermbg=none cterm=none
-hi IncSearch        ctermfg=235   ctermbg=131  cterm=none
+hi IncSearch        ctermfg=235   ctermbg=187  cterm=none
 hi Search           ctermfg=235   ctermbg=187  cterm=none
 hi Visual           ctermfg=110   ctermbg=235  cterm=reverse
 hi VisualNOS        ctermfg=white ctermbg=none cterm=reverse
@@ -30,6 +30,7 @@ hi DiffDelete       ctermfg=grey  ctermbg=none cterm=none
 hi DiffText         ctermfg=grey  ctermbg=none cterm=none
 hi Directory        ctermfg=grey  ctermbg=none cterm=none
 hi Error            ctermfg=grey  ctermbg=none cterm=none
+hi ErrorMsg         ctermfg=0
 hi Folded           ctermfg=grey  ctermbg=none cterm=none
 hi Function         ctermfg=grey  ctermbg=none cterm=bold
 hi Identifier       ctermfg=grey  ctermbg=none cterm=none
