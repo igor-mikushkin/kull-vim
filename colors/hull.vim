@@ -47,7 +47,7 @@ hi PmenuSel         ctermfg=255   ctermbg=none cterm=bold
 hi PmenuThumb       ctermfg=255   ctermbg=none cterm=none
 hi PreProc          ctermfg=255   ctermbg=none cterm=bold
 hi Special          ctermfg=255   ctermbg=none cterm=bold,italic
-hi SpecialKey       ctermfg=238   ctermbg=none cterm=none
+hi SpecialKey       ctermfg=241   ctermbg=none cterm=none
 hi Statement        ctermfg=231   ctermbg=none cterm=bold
 hi StatusLine       ctermfg=255   ctermbg=239  cterm=bold
 hi StatusLineNC     ctermfg=246   ctermbg=239  cterm=none
