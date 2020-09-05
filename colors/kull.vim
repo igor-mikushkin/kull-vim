@@ -69,12 +69,12 @@ hi htmlTagN         ctermfg=grey  ctermbg=none cterm=bold
 hi rubySymbol       ctermfg=grey  ctermbg=none cterm=none
 hi vimHiTerm        ctermfg=grey  ctermbg=none cterm=none
 hi vimGroupName     ctermfg=grey  ctermbg=none cterm=none
-hi CurrentWordTwins ctermfg=grey  ctermbg=22   cterm=none
+hi CurrentWordTwins ctermfg=grey  ctermbg=240  cterm=none
 hi Delimiter        ctermfg=grey  ctermbg=none cterm=none
 hi Conceal          ctermfg=108   ctermbg=none cterm=bold
 
-hi goParamName   ctermfg=grey  ctermbg=none cterm=bold,italic
-hi goParamType   ctermfg=grey  ctermbg=none cterm=none
+hi goParamName      ctermfg=grey  ctermbg=none cterm=bold,italic
+hi goParamType      ctermfg=grey  ctermbg=none cterm=none
 hi goFunctionCall   ctermfg=grey  ctermbg=none cterm=none
 
 hi texSpecialChar   ctermfg=243   ctermbg=none cterm=none
