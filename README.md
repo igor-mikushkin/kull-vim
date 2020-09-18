@@ -24,5 +24,8 @@ NeoBundle 'igrmk/kull-vim'
 " Vundle
 Plugin 'igrmk/kull-vim'
 
+" kull
 colorscheme kull
+" hull
+colorscheme hull
 ```
